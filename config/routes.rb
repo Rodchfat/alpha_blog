@@ -8,7 +8,7 @@ root 'pages#home'
 
 get 'pages/about', to: 'pages#about'
 
-resource :articles
+resources :articles 
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
