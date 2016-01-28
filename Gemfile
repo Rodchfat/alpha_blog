@@ -53,4 +53,5 @@ group :production do
   gem 'rails_12factor'
 end
 
-
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'

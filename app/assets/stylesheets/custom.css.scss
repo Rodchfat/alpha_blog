@@ -61,3 +61,8 @@ footer ul li {
 border-top: 1px solid #eaeaea;
 margin-top: 15px;
 }
+Add the following class to the custom.css.scss file:
+.listing {
+list-style: none;
+padding-left: 0;
+}
