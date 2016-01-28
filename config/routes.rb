@@ -10,6 +10,8 @@ get 'pages/about', to: 'pages#about'
 
 resources :articles 
 
+get 'signup', to: 'users#new'
+resources :users, expect:[:new]
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
